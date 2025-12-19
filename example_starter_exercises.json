@@ -1,0 +1,121 @@
+{
+  "push_ups": {
+    "name": "Push Ups",
+    "type": "reps",
+    "base_amount": 6,
+    "scaling_factor": 0.4,
+    "description": "Standard push-ups"
+  },
+  "plank": {
+    "name": "Plank",
+    "type": "time",
+    "base_amount": 30,
+    "scaling_factor": 10.0,
+    "description": "Hold plank position"
+  },
+  "squat": {
+    "name": "Squats",
+    "type": "reps",
+    "base_amount": 10,
+    "scaling_factor": 0.5,
+    "description": "Squat down stand up"
+  },
+  "jumping_jacks": {
+    "name": "Jumping Jacks",
+    "type": "reps",
+    "base_amount": 12,
+    "scaling_factor": 0.45,
+    "description": "a star jump"
+  },
+  "bicep_curl": {
+    "name": "Bicep Curl",
+    "type": "reps",
+    "base_amount": 8,
+    "scaling_factor": 0.5,
+    "description": "curl a weight with your bicep"
+  },
+  "hammer_curl": {
+    "name": "Hammer Curl",
+    "type": "reps",
+    "base_amount": 8,
+    "scaling_factor": 0.5,
+    "description": "lift weight palm facing in"
+  },
+  "arnold_press": {
+    "name": "Arnold Press",
+    "type": "reps",
+    "base_amount": 6,
+    "scaling_factor": 0.35,
+    "description": "start with weight above shoulder palm facing in, lift so palm ends facing forward"
+  },
+  "lateral_raise": {
+    "name": "Lateral Raise",
+    "type": "reps",
+    "base_amount": 10,
+    "scaling_factor": 0.35,
+    "description": "light weight, hand by side, lift straight out to shoulder height"
+  },
+  "bent_over_row": {
+    "name": "Bent Over Row",
+    "type": "reps",
+    "base_amount": 10,
+    "scaling_factor": 0.4,
+    "description": "arm and knee on a bench, weight in other arm, pull weight to armpit squeezing shoulder blade"
+  },
+  "upright_row": {
+    "name": "Upright Row",
+    "type": "reps",
+    "base_amount": 8,
+    "scaling_factor": 0.4,
+    "description": "arm straight forward with weight, pull weight to chest bending elbow, keep palms facing down"
+  },
+  "side_plank": {
+    "name": "Side Plank",
+    "type": "time",
+    "base_amount": 30,
+    "scaling_factor": 10.0,
+    "description": "hold a side plank on elbow keeping hips stacked and feet on top of one another"
+  },
+  "around_the_world": {
+    "name": "Around The World",
+    "type": "reps",
+    "base_amount": 8,
+    "scaling_factor": 0.35,
+    "description": "bright dumb bell from hip around head and down to other hip"
+  },
+  "hollow_hold": {
+    "name": "Hollow Hold",
+    "type": "time",
+    "base_amount": 20,
+    "scaling_factor": 5.0,
+    "description": "balance on butt with arms out sideways and legs raised"
+  },
+  "toe_taps": {
+    "name": "Toe Taps",
+    "type": "reps",
+    "base_amount": 12,
+    "scaling_factor": 0.4,
+    "description": "in a plank, reach toe out to side"
+  },
+  "calf_raises": {
+    "name": "Calf Raises",
+    "type": "reps",
+    "base_amount": 10,
+    "scaling_factor": 0.4,
+    "description": "raise up on toes from flat feet"
+  },
+  "mountain_climbers": {
+    "name": "Mountain Climbers",
+    "type": "time",
+    "base_amount": 15,
+    "scaling_factor": 5.0,
+    "description": "run in a pushup position"
+  },
+  "knee_to_shoulder": {
+    "name": "Knee to Shoulder",
+    "type": "reps",
+    "base_amount": 8,
+    "scaling_factor": 0.4,
+    "description": "in a plank, bring knee to shoulder"
+  }
+}
