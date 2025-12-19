@@ -1,0 +1,151 @@
+[
+  {
+    "session_id": "2025-12-18_205651",
+    "start_time": "2025-12-18T20:56:51.065058",
+    "end_time": "2025-12-18T20:57:25.635617",
+    "exercises": [
+      {
+        "name": "Squats",
+        "type": "reps",
+        "base_amount": 10,
+        "scaling_factor": 0.5,
+        "description": "Squat down stand up",
+        "amount": 15
+      },
+      {
+        "name": "Bicep Curl",
+        "type": "reps",
+        "base_amount": 8,
+        "scaling_factor": 0.5,
+        "description": "curl a weight with your bicep",
+        "amount": 12
+      },
+      {
+        "name": "Lateral Raise",
+        "type": "reps",
+        "base_amount": 10,
+        "scaling_factor": 0.35,
+        "description": "light weight, hand by side, lift straight out to shoulder height",
+        "amount": 13
+      },
+      {
+        "name": "Squats",
+        "type": "reps",
+        "base_amount": 10,
+        "scaling_factor": 0.5,
+        "description": "Squat down stand up",
+        "amount": 15
+      }
+    ]
+  },
+  {
+    "session_id": "2025-12-18_205802",
+    "start_time": "2025-12-18T20:58:02.345887",
+    "end_time": "2025-12-18T20:58:14.384643",
+    "exercises": [
+      {
+        "name": "Lateral Raise",
+        "type": "reps",
+        "base_amount": 10,
+        "scaling_factor": 0.35,
+        "description": "light weight, hand by side, lift straight out to shoulder height",
+        "amount": 13
+      },
+      {
+        "name": "Side Plank",
+        "type": "time",
+        "base_amount": 30,
+        "scaling_factor": 10.0,
+        "description": "hold a side plank on elbow keeping hips stacked and feet on top of one another",
+        "amount": 50.0
+      },
+      {
+        "name": "Plank",
+        "type": "time",
+        "base_amount": 30,
+        "scaling_factor": 10.0,
+        "description": "Hold plank position",
+        "amount": 50.0
+      },
+      {
+        "name": "Jumping Jacks",
+        "type": "reps",
+        "base_amount": 12,
+        "scaling_factor": 0.45,
+        "description": "a star jump",
+        "amount": 17
+      },
+      {
+        "name": "Arnold Press",
+        "type": "reps",
+        "base_amount": 6,
+        "scaling_factor": 0.35,
+        "description": "start with weight above shoulder palm facing in, lift so palm ends facing forward",
+        "amount": 8
+      },
+      {
+        "name": "Around The World",
+        "type": "reps",
+        "base_amount": 8,
+        "scaling_factor": 0.35,
+        "description": "bright dumb bell from hip around head and down to other hip",
+        "amount": 10
+      },
+      {
+        "name": "Toe Taps",
+        "type": "reps",
+        "base_amount": 12,
+        "scaling_factor": 0.4,
+        "description": "in a plank, reach toe out to side",
+        "amount": 16
+      }
+    ]
+  },
+  {
+    "session_id": "2025-12-18_210023",
+    "start_time": "2025-12-18T21:00:23.161924",
+    "end_time": "2025-12-18T21:00:57.250292",
+    "exercises": [
+      {
+        "name": "Plank",
+        "type": "time",
+        "base_amount": 30,
+        "scaling_factor": 10.0,
+        "description": "Hold plank position",
+        "amount": 50.0
+      },
+      {
+        "name": "Push Ups",
+        "type": "reps",
+        "base_amount": 6,
+        "scaling_factor": 0.4,
+        "description": "Standard push-ups",
+        "amount": 8
+      },
+      {
+        "name": "Upright Row",
+        "type": "reps",
+        "base_amount": 8,
+        "scaling_factor": 0.4,
+        "description": "arm straight forward with weight, pull weight to chest bending elbow, keep palms facing down",
+        "amount": 11
+      },
+      {
+        "name": "Arnold Press",
+        "type": "reps",
+        "base_amount": 6,
+        "scaling_factor": 0.35,
+        "description": "start with weight above shoulder palm facing in, lift so palm ends facing forward",
+        "amount": 8
+      },
+      {
+        "name": "Bicep Curl",
+        "type": "reps",
+        "base_amount": 8,
+        "scaling_factor": 0.5,
+        "description": "curl a weight with your bicep",
+        "amount": 12
+      }
+    ]
+  }
+]
