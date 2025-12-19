@@ -63,10 +63,16 @@ def show_stats():
     with open("workout_log.json", "r") as file:
             data = json.load(file)
     #initialize dics for counting stats
+    exercise_stats = aggregate_stats(data)
+    #print results
+    print_aggregated_results(exercise_stats)
+
+    
+def aggregate_stats(data):
     exercise_stats ={}
     #calculate stats across exercises
     for exercise in data:
-        exercise_name = exercise['exercise']
+        exercise_name = exercise.get('name') or exercise.get('exercise') #janky fix for different formats between log and session exercises
         if exercise_name in exercise_stats:
             exercise_stats[exercise_name]["set_count"] +=1
             exercise_stats[exercise_name]["total_amount"] += exercise["amount"]
@@ -79,8 +85,9 @@ def show_stats():
                 "average_amount":exercise["amount"],
                 "type": exercise["type"]
             }
-    
-    #print results
+    return exercise_stats
+
+def print_aggregated_results(exercise_stats):
     maxLength = max(len(entry) for entry in exercise_stats.keys()) #get the length of the longest exercise name for formting
     print("=====Workout Stats=====")
     for exercise in exercise_stats: #NOTE, itterating over a dict like this ONLY provides the keys, not the values
@@ -89,4 +96,3 @@ def show_stats():
         type = exercise_stats[exercise]["type"] if exercise_stats[exercise]["type"] == "reps" else "seconds"
         average = exercise_stats[exercise]["average_amount"]
         print(f"Exercise: {exercise:<{maxLength}} Total Sets: {set_count:<2} Total_amount: {total_amount:<6} {type:<7} Average Per Set: {average:5.2f} {type:<7}")
-

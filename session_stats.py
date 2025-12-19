@@ -1,5 +1,6 @@
 import json
 import os
+from workout_logger import print_aggregated_results, aggregate_stats
 
 #get a session from the log
 def get_session(sessionID):
@@ -26,4 +27,8 @@ def calculate_stats(sessionID):
     if not session:
         print(f"No session found with id {sessionID}")
     
-    print("The session is:", session)
+    #print("The session is:", session)
+    data = session["exercises"]
+    #aggregate stats
+    session_stats = aggregate_stats(data)
+    print_aggregated_results(session_stats)
