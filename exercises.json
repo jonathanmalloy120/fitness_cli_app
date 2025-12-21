@@ -58,7 +58,7 @@
   "bent_over_row": {
     "name": "Bent Over Row",
     "type": "reps",
-    "base_amount": 10,
+    "base_amount": 6,
     "scaling_factor": 0.4,
     "description": "arm and knee on a bench, weight in other arm, pull weight to armpit squeezing shoulder blade"
   },
@@ -117,5 +117,54 @@
     "base_amount": 8,
     "scaling_factor": 0.4,
     "description": "in a plank, bring knee to shoulder"
+  },
+  "side_plank_clamshell": {
+    "name": "Side Plank Clamshell",
+    "type": "reps",
+    "base_amount": 6,
+    "scaling_factor": 0.4,
+    "description": "in a side plank, lift higher knee up with ankles still touching"
+  },
+  "rear_foot_elevated_split_squat": {
+    "name": "Rear Foot Elevated Split Squat",
+    "type": "reps",
+    "base_amount": 6,
+    "scaling_factor": 0.4,
+    "description": "rear foot raised on a couch or bench, do a lunge"
+  },
+  "lunge": {
+    "name": "Lunge",
+    "type": "reps",
+    "base_amount": 8,
+    "scaling_factor": 0.4,
+    "description": "lunge forward"
+  },
+  "side_lunge": {
+    "name": "Side Lunge",
+    "type": "reps",
+    "base_amount": 8,
+    "scaling_factor": 0.4,
+    "description": "lunge out to the side"
+  },
+  "gobblet_squat": {
+    "name": "Gobblet Squat",
+    "type": "reps",
+    "base_amount": 10,
+    "scaling_factor": 0.4,
+    "description": "squat holding a weight"
+  },
+  "squat_to_shoulder_press": {
+    "name": "Squat To Shoulder Press",
+    "type": "reps",
+    "base_amount": 8,
+    "scaling_factor": 0.35,
+    "description": "holding 2 weights, squat then lift over head"
+  },
+  "tricep_extension": {
+    "name": "Tricep Extension",
+    "type": "reps",
+    "base_amount": 10,
+    "scaling_factor": 0.45,
+    "description": "bring weight backwards behind head, kneeling"
   }
 }

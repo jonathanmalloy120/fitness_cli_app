@@ -1,4 +1,5 @@
 # Data files - your personal workout data
+exercises.json
 workout_log.json
 session_log.json
 active_session.json
