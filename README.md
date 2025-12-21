@@ -7,13 +7,15 @@ This is a basic program designed to recommend exercises for your workout. It com
 
 To install you will need python installed. 
 
-1. Copy the entire repo to a directory and CD into the directory
+1. Clone the entire repo to a directory and CD into the directory
 
-2. By default, the program will create all files it needs to operate in the root directory as well as a very small exercise set (only pushups and planks). Exercises are stored in exercises.json. If desired delete that file (if exists) and rename
+2. By default, the program will create all files it needs to operate in the root directory as well as a very small exercise set (only pushups and planks). Exercises are stored in exercises.json. 
+
+If desired delete that file (if exists) and rename
 
     `exercises.example.json -->exercises.json`
 
-    To access a larger set of pre-created exercises
+To access a larger set of pre-created exercises
 
 **-----Use-----**
 
