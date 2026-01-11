@@ -48,17 +48,10 @@
     "scaling_factor": 0.35,
     "description": "start with weight above shoulder palm facing in, lift so palm ends facing forward"
   },
-  "lateral_raise": {
-    "name": "Lateral Raise",
-    "type": "reps",
-    "base_amount": 10,
-    "scaling_factor": 0.35,
-    "description": "light weight, hand by side, lift straight out to shoulder height"
-  },
   "bent_over_row": {
     "name": "Bent Over Row",
     "type": "reps",
-    "base_amount": 10,
+    "base_amount": 6,
     "scaling_factor": 0.4,
     "description": "arm and knee on a bench, weight in other arm, pull weight to armpit squeezing shoulder blade"
   },
@@ -166,5 +159,47 @@
     "base_amount": 10,
     "scaling_factor": 0.45,
     "description": "bring weight backwards behind head, kneeling"
+  },
+  "russian_twists": {
+    "name": "Russian Twists",
+    "type": "time",
+    "base_amount": 30,
+    "scaling_factor": 7.0,
+    "description": "twith with weight back and forth in a c sit position"
+  },
+  "sit_ups": {
+    "name": "Sit Ups",
+    "type": "reps",
+    "base_amount": 10,
+    "scaling_factor": 0.35,
+    "description": "you know what a sit up is"
+  },
+  "rear_leg_lift": {
+    "name": "Rear Leg Lift",
+    "type": "reps",
+    "base_amount": 8,
+    "scaling_factor": 0.4,
+    "description": "laying down, lift leg up and backwards"
+  },
+  "cherry_pickers": {
+    "name": "Cherry Pickers",
+    "type": "time",
+    "base_amount": 30,
+    "scaling_factor": 5.0,
+    "description": "laying with back on the floor and legs pointed at the ceiling, reach arm to opposite ankle"
+  },
+  "ceiling_kicks": {
+    "name": "Ceiling Kicks",
+    "type": "time",
+    "base_amount": 20,
+    "scaling_factor": 8.0,
+    "description": "laying with back on the floor and feet pointed at ceiling, push legs and hips up towards ceiling"
+  },
+  "standing_elbow_to_knee": {
+    "name": "Standing Elbow to Knee",
+    "type": "reps",
+    "base_amount": 10,
+    "scaling_factor": 0.35,
+    "description": "holding a weight, bring opposite knee and elbow together"
   }
 }
